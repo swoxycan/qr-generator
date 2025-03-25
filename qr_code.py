@@ -51,6 +51,6 @@ if __name__ == "__main__":
     ctk.set_appearance_mode("System")
     ctk.set_default_color_theme("blue")
 
-    root = ctk.CTk()  # Create the main window
-    app = QRCodeApp(root)  # Initialize the application
-    root.mainloop()  # Start the main loop 
+    root = ctk.CTk()
+    app = QRCodeApp(root)
+    root.mainloop()
